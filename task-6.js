@@ -14,3 +14,11 @@ do {
 } while (input !== null);
 
 alert(numbers.join(","));
+
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i];
+}
+
+alert(sum);
